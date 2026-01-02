@@ -22,5 +22,5 @@ def create_gif(image_files,output_name='output.gif',duration=500,loop=0):
 
 
 if __name__ =="__main__":
- filenames = ['hippocorn1.png','hippocorn2.png','hippocorn3.png','hippocorn4.png']
+ filenames = ['images/hippocorn1.png','images/hippocorn2.png','images/hippocorn3.png','images/hippocorn4.png']
  create_gif(filenames,'hippocorn.gif',duration=500,loop=0)
