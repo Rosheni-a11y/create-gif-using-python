@@ -8,7 +8,7 @@ It’s beginner-friendly and demonstrates **file handling, image processing, and
 ---
 
 ## 📂 Project Structure
-
+```
 create-gif-using-python/
 ├── create_gif.py         # Your  Python code
 ├── images/               # Folder containing images and GIF
@@ -20,7 +20,7 @@ create-gif-using-python/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 ---
 
 ## 💻 Requirements
@@ -33,7 +33,7 @@ Install the required library using:
 ```bash
 pip install -r requirements.txt
 The requirements.txt makes it easy for anyone to install dependencies.
-
+```
 ---
 
 ## ⚡ How to Run
