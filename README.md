@@ -43,9 +43,9 @@ The requirements.txt makes it easy for anyone to install dependencies.
 -Open terminal in this folder.
 
 -Run the script:
-
+```
    python create_gif.py
-
+```
 -The GIF will be created in the same folder (default name: hippocorn.gif).
 
 ---
@@ -53,13 +53,13 @@ The requirements.txt makes it easy for anyone to install dependencies.
 ## 🔧 Customization
 
 -Change or add images in the list:
-
+```
   filenames =    ['hippocorn1.png','hippocorn2.png','hippocorn3.png','hippocorn4.png']
-
+```
 -Adjust GIF speed:
-
+```
    create_gif(filenames, output_name='hippocorn.gif', duration=500, loop=0)
-
+```
 -duration → time per frame in milliseconds
 
 -loop → number of loops (0 = infinite)
@@ -68,6 +68,7 @@ The requirements.txt makes it easy for anyone to install dependencies.
 
 ## 🖼️ Example Output
 
+![GIF Example](images/hippocorn.gif)
 
 ---
 
